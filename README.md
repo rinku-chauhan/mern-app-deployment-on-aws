@@ -1,13 +1,24 @@
 # TravelMemory MERN Application Deployment
 
-![AWS](https://img.shields.io/badge/AWS-EC2-orange)
-![NGINX](https://img.shields.io/badge/NGINX-Reverse%20Proxy-green)
-![React](https://img.shields.io/badge/React-Frontend-blue)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-brightgreen)
-![MongoDB](https://img.shields.io/badge/MongoDB-Database-darkgreen)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-DNS-orange)
-![PM2](https://img.shields.io/badge/PM2-Process%20Manager-yellow)
-![License](https://img.shields.io/badge/License-MIT-blue)
+<p align="left">
+
+  <img src="https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge" height="40"/>
+
+  <img src="https://img.shields.io/badge/NGINX-Reverse_Proxy-green?style=for-the-badge" height="40"/>
+
+  <img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge" height="40"/>
+
+  <img src="https://img.shields.io/badge/Node.js-Backend-brightgreen?style=for-the-badge" height="40"/>
+
+  <img src="https://img.shields.io/badge/MongoDB-Database-darkgreen?style=for-the-badge" height="40"/>
+
+  <img src="https://img.shields.io/badge/Cloudflare-DNS-orange?style=for-the-badge" height="40"/>
+
+  <img src="https://img.shields.io/badge/PM2-Process_Manager-yellow?style=for-the-badge" height="40"/>
+
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" height="40"/>
+
+</p>
 
 # Project Overview
 
