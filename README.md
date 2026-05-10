@@ -1,6 +1,6 @@
 # TravelMemory Application Deployment Documentation
 
-# 📌 Project Overview
+# Project Overview
 
 The TravelMemory application is a full-stack MERN application deployed on AWS infrastructure using:
 
@@ -13,7 +13,7 @@ The TravelMemory application is a full-stack MERN application deployed on AWS in
 
 ---
 
-# 🎯 Objective
+# Objective
 
 The objective of this project was to:
 
@@ -27,15 +27,7 @@ The objective of this project was to:
 
 ---
 
-# 👨‍💻 Author
-
-## Rinku Chauhan
-
-Aspiring DevOps & Cloud Engineer
-
----
-
-# 🛠️ Technology Stack
+# Technology Stack
 
 | Component | Technology |
 |---|---|
@@ -50,7 +42,7 @@ Aspiring DevOps & Cloud Engineer
 
 ---
 
-# 🏗️ Architecture Overview
+# Architecture Overview
 
 The deployment architecture consists of:
 
@@ -66,13 +58,13 @@ The deployment architecture consists of:
 
 ---
 
-# 🖼️ Deployment Architecture Diagram
+# Deployment Architecture Diagram
 
 ![Architecture Diagram](architecture/Architecture-Diagram.png)
 
 ---
 
-# 🚀 Step 1 — Launch EC2 Instances
+# Step 1 — Launch EC2 Instances
 
 ## Actions Performed
 
@@ -106,7 +98,7 @@ ssh -i key.pem ubuntu@<EC2-Public-IP>
 
 ---
 
-# 🚀 Step 2 — SSH into EC2
+# Step 2 — SSH into EC2
 
 ## Screenshot
 
@@ -114,7 +106,7 @@ ssh -i key.pem ubuntu@<EC2-Public-IP>
 
 ---
 
-# 🚀 Step 3 — Clone GitHub Repository
+# Step 3 — Clone GitHub Repository
 
 ## Actions Performed
 
@@ -132,7 +124,7 @@ git clone https://github.com/UnpredictablePrashant/TravelMemory.git
 
 ---
 
-# 🚀 Step 4 — Backend Configuration
+# Step 4 — Backend Configuration
 
 ## Actions Performed
 
@@ -186,7 +178,7 @@ curl http://localhost:3000/trip
 
 ---
 
-# 🚀 Step 5 — NGINX Reverse Proxy Configuration
+# Step 5 — NGINX Reverse Proxy Configuration
 
 ## Actions Performed
 
@@ -237,7 +229,7 @@ sudo systemctl restart nginx
 
 ---
 
-# 🚀 Step 6 — Frontend Configuration
+# Step 6 — Frontend Configuration
 
 ## Actions Performed
 
@@ -277,7 +269,7 @@ npm run build
 
 ---
 
-# 🚀 Step 7 — Frontend and Backend Integration
+# Step 7 — Frontend and Backend Integration
 
 ## Actions Performed
 
@@ -297,7 +289,7 @@ curl http://localhost/trip
 
 ---
 
-# 🚀 Step 8 — Scaling the Application
+# Step 8 — Scaling the Application
 
 ## Actions Performed
 
@@ -328,7 +320,7 @@ curl http://localhost/trip
 
 ---
 
-# 🚀 Step 9 — Domain Setup Using Cloudflare
+# Step 9 — Domain Setup Using Cloudflare
 
 ## Actions Performed
 
@@ -347,7 +339,7 @@ curl http://localhost/trip
 
 ---
 
-# 🔐 SSL Configuration
+# SSL Configuration
 
 - SSL Mode: Flexible
 - Always Use HTTPS: Enabled
@@ -382,7 +374,7 @@ curl http://localhost/trip
 
 ---
 
-# ⚠️ Challenges Faced and Resolutions
+# Challenges Faced and Resolutions
 
 | Issue | Resolution |
 |---|---|
@@ -395,7 +387,7 @@ curl http://localhost/trip
 
 ---
 
-# ✅ Best Practices Implemented
+# Best Practices Implemented
 
 - Reverse proxy using NGINX
 - Process management using PM2
@@ -406,7 +398,7 @@ curl http://localhost/trip
 
 ---
 
-# 🎯 Conclusion
+# Conclusion
 
 The TravelMemory application was successfully deployed on AWS using a scalable architecture.
 
@@ -422,5 +414,11 @@ The deployment includes:
 The application is accessible through a custom domain with HTTPS enabled and supports scalable traffic distribution through AWS ALB.
 
 ---
+# Author
 
-# ⭐ Thank You
+## Rinku Chauhan
+
+Aspiring DevOps & Cloud Engineer
+---
+
+# Thank You
