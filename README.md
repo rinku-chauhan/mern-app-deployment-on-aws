@@ -1,4 +1,4 @@
-# TravelMemory MERN Application Deployment on AWS EC2
+# TravelMemory MERN App Deployment on AWS EC2
 
 <p align="left">
 
