@@ -1,4 +1,4 @@
-# Production-Style MERN Application Deployment on AWS EC2
+# Production-style MERN Application Deployment on AWS EC2
 
 <p align="left">
 
