@@ -78,7 +78,7 @@ The deployment architecture consists of:
 
 # Deployment Architecture Diagram
 
-![Architecture Diagram](architecture/Architecture-Diagram.png)
+![Deployment Architecture](architecture/Deployment-Architecture-Diagram.png)
 
 ---
 
